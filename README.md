@@ -13,23 +13,23 @@ This has been tested with:
     Mint 19.3 Mate with Caja
        
 Requirements:
-    gvfs-info which is used by Nautilus, Nemo & Caja to store icon positions
-    Nautilus or Nemo or Caja is your file manager
-    bash, zenity, gsettings, xprop, sed, grep
+    gvfs-info which is used by Nautilus, Nemo & Caja to store icon positions  
+    Nautilus or Nemo or Caja is your file manager  
+    bash, zenity, gsettings, xprop, sed, grep  
 
 
 ### Installation Instructions  ####
 
 1. Copy the three files:
-		Happy_Desktop.sh
-		Happy_Desktop.png
-		happy_desktop.lang
+		Happy_Desktop.sh  
+		Happy_Desktop.png  
+		happy_desktop.lang  
 
  	to either your bin or nautilus scripts folder or subfolder with name of your choice:
-        (/home/YourUserName/bin) or
-        (/home/YourUserName/.local/share/nautilus/scripts) or
-        (/home/YourUserName/bin/anysubfolder) or
-        (/home/YourUserName/.local/share/nautilus/scripts/anysubfolder)
+        (/home/YourUserName/bin) or  
+        (/home/YourUserName/.local/share/nautilus/scripts) or  
+        (/home/YourUserName/bin/anysubfolder) or  
+        (/home/YourUserName/.local/share/nautilus/scripts/anysubfolder)  
 
 
 ### Initial Setup ####
@@ -43,7 +43,7 @@ Requirements:
 
 3. On the first run, two files will be created in the installation directory:
 
-      happy_desktop.ini   (where your preferences are saved)
+      happy_desktop.ini   (where your preferences are saved)  
       happy_desktop_restore.db   (used to restore icon positions)
 
 ### Using the Program ####
@@ -87,10 +87,10 @@ Requirements:
 
 Original script by:
 
-#   copyright © 2017 retiredbutstillhavingfun
-#
-#   Happy Desktop
-#   Version 2.00
-#   10OCT2017
-#   drm200@free.fr
-#   GNU General Public License v2.0
+    copyright © 2017 retiredbutstillhavingfun
+
+    Happy Desktop  
+    Version 2.00  
+    10OCT2017  
+    drm200@free.fr  
+    GNU General Public License v2.0  
