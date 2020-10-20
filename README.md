@@ -4,15 +4,15 @@
 
 This program is used to save/restore/align the Ubuntu and Mint Desktop icons
 positions when Nautilus, Nemo, or Caja is managing the desktop.
-This has been tested with:
-    Ubuntu 14.04 with Nautilus
-    Ubuntu 16.04 with Nautilus
-    Mint 18.1 Cinnamon with Nemo
-    Mint 18.2 Cinnamon with Nemo
-    Mint 18.2 Mate with Caja
+This has been tested with:  
+    Ubuntu 14.04 with Nautilus  
+    Ubuntu 16.04 with Nautilus  
+    Mint 18.1 Cinnamon with Nemo  
+    Mint 18.2 Cinnamon with Nemo  
+    Mint 18.2 Mate with Caja  
     Mint 19.3 Mate with Caja
        
-Requirements:
+Requirements:  
     gvfs-info which is used by Nautilus, Nemo & Caja to store icon positions  
     Nautilus or Nemo or Caja is your file manager  
     bash, zenity, gsettings, xprop, sed, grep  
@@ -20,12 +20,12 @@ Requirements:
 
 ### Installation Instructions  ####
 
-1. Copy the three files:
+1. Copy the three files:  
 		Happy_Desktop.sh  
 		Happy_Desktop.png  
 		happy_desktop.lang  
 
- 	to either your bin or nautilus scripts folder or subfolder with name of your choice:
+ 	to either your bin or nautilus scripts folder or subfolder with name of your choice:  
         (/home/YourUserName/bin) or  
         (/home/YourUserName/.local/share/nautilus/scripts) or  
         (/home/YourUserName/bin/anysubfolder) or  
